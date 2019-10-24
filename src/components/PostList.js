@@ -18,23 +18,21 @@ class PostList extends React.Component {
       return <Loader active inline='centered'>Loading</Loader>
     }else {
       return(
-        
-
-<List divided inverted relaxed>
-{
-  this.props.posts.map(post => {
-    return (
-      <List.Item key={post.id}>
-        <List.Content>
-          <List.Header as='h2'>{post.title}</List.Header>
-          {post.body}
-        </List.Content>
-      </List.Item>
-    )
-  })
-}
-</List>
-      )
+        <List divided inverted relaxed>
+          {
+            this.props.posts.map(post => {
+              return (
+                <List.Item key={post.id}>
+                  <List.Content>
+                    <List.Header as='h2'>{post.title}</List.Header>
+                    {post.body}
+                  </List.Content>
+                </List.Item>
+              )
+            })
+          }
+        </List>
+     )
     }
   }
 
