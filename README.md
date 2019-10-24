@@ -5,7 +5,3 @@
 - [x] Loading must be rendered when data is fetching
 - [ ] If error occurs then appropriate message should be displayed
 - [x] Optionally you can use 'Bootstrap' | 'Semantic UI' for styling
-- [ ] 
-- [ ]
-- [ ] 
-- [ ]
